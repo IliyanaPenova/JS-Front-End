@@ -1,0 +1,73 @@
+body{
+    font-family: Helvetica, sans-serif;
+    margin: 2em;
+    padding: 2em;
+    
+}
+.chill{
+    background-color: #1881B6;
+    padding: 2 24px;
+    border: 2px solid black;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    max-height: 300px;
+    margin: 60px auto;
+
+}
+.chill .general{
+    width: 60%;
+    height: 35%;
+    margin-left: 24px;
+    padding: 1em 1em;
+}
+.description{
+    text-indent: 20px;
+}
+
+.chill .subtitle{
+    font-size:20px;
+    margin-bottom: 16px;
+}
+.chill .title{
+    padding: -12px;
+    font-size: 32px;
+    margin-bottom: 8px;
+    font-weight: normal;
+    color: white;
+}
+
+.chill .description{
+    margin-bottom: 20px;
+    color: #07356E;
+    text-align:start;
+}
+
+.chill .btn{
+    all: unset;
+    border:1px solid #0B3D57;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.chill .btn.btn-first{
+    color: white;
+    background-color: #B6416D;
+    border-radius: 6px;
+    margin-left: 120px;
+    margin-right: 120px;
+    align-items: center;
+}
+.chill .btn{
+    background: none;
+    color: black;
+    border:1px solid #0B3D57;
+}
+
+.chill .img{
+    width: 25%;
+    height: 25%;
+    padding: 2em;
+}
